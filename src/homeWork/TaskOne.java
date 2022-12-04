@@ -9,7 +9,7 @@ public class TaskOne {
     private static List<Integer> signIndexesGlobal;
 
     public static void main(String[] args) throws IOException {
-        var exp = "2? + ?5 = 105";
+        var exp = "2? + ?5 = 69";
         System.out.println(exp);
         restore(exp);
     }
