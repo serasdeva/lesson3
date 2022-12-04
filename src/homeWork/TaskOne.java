@@ -31,15 +31,15 @@ public class TaskOne {
         CombWithRep(new int[signIndexes.size()], 0, 10);
     }
 
-    private static void CombWithRep(int[] comb, int index, int K) {
+    private static void CombWithRep(int[] comb, int index, int k) {
         if (index == comb.length) {
             checkComb(comb);
             return;
         }
 
-        for (int i = 0; i < K; i++) {
+        for (int i = 0; i < k; i++) {
             comb[index] = i;
-            CombWithRep(comb, index + 1, K);
+            CombWithRep(comb, index + 1, k);
         }
     }
 
