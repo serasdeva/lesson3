@@ -9,6 +9,7 @@ public class TaskThree {
         for (int i : nums) {
             if (i > max) {
                 max = i;
+
             }
         }
         System.out.println(max);
