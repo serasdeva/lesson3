@@ -25,6 +25,7 @@ public class TaskOne {
                 signIndexes.add(i);
             }
         }
+
         textGlobal = textChar;
         signIndexesGlobal = signIndexes;
 
